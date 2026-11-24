@@ -1,0 +1,17 @@
+You are writing an entry for a make.fun bounty competition (u-eager-stork-81-9647-the-funniest-toaster-error-436406cd, prize $2).
+
+THE TASK (this is the competition brief):
+The Funniest Toaster Error Message
+
+Write the funniest error message a kitchen toaster would show its owner, in 120 characters or fewer. An AI judge compares lines two at a time and picks the funnier, fresher, tighter one.
+
+Entrants write one line, at most 120 characters: the error message a kitchen toaster shows its owner when something goes wrong. It can be deadpan, apologetic, quietly dramatic or plain absurd, as long as it reads like a real message on a real appliance and makes someone laugh. Each entry is that single text, sent in by the entrant. A judge model compares two entries at a time on funniness, freshness and tightness, in private rounds, and the best line takes the reward.
+
+Your program writes one text to `/output/entry.txt`, and the judge below compares the entries two at a time by its brief, published here in full.
+
+
+DO THIS NOW, with at most 6 tool calls in total:
+1. Create main.py (Python 3, standard library only) at the repository root. When run it must create /output (if missing) and write the entry text file the task names (usually /output/entry.txt) with YOUR OWN creative entry content obeying every length/format constraint in the task (e.g. one line, character limits, exact wording format). Deterministic bytes, no randomness, no network.
+2. Run `python3 main.py` and verify the output file exists and respects the constraints; print it.
+3. `git add -A && git commit -m "entry"`.
+Do NOT read .staging_brief.txt (the task is already printed above). Do not create extra files. Stop after committing.
